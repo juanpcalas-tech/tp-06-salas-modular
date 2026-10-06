@@ -1,7 +1,7 @@
 {
-  "name": "tp_04_web_con_ejs_mascotas_adopcion",
+  "name": "tp-06-salas-modular",
   "version": "1.0.0",
-  "description": "Aplicacion Web con EJS de Mascotas en Adopcion",
+  "description": "Refactorización modular de reservas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,16 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juanpcalas-tech/Tp_04_Web_con_EJS_Mascotas_Adopcion.git"
+    "url": "git+https://github.com/juanpcalas-tech/tp-06-salas-modular.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/juanpcalas-tech/Tp_04_Web_con_EJS_Mascotas_Adopcion/issues"
+    "url": "https://github.com/juanpcalas-tech/tp-06-salas-modular/issues"
   },
-  "homepage": "https://github.com/juanpcalas-tech/Tp_04_Web_con_EJS_Mascotas_Adopcion#readme",
+  "homepage": "https://github.com/juanpcalas-tech/tp-06-salas-modular#readme",
   "dependencies": {
     "ejs": "^6.0.1",
     "express": "^5.2.1",
