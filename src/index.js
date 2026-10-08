@@ -1,15 +1,13 @@
-/*const path = require("node:path");*/
 const { leerConfiguracion } = require("./configuracion");
 const { crearServicioreservas } = require("./servicios/reservas");
 const { crearApp } = require("./app");
-/*const PORT = 3000;*/
 
 async function main() {
   const { puerto, formatoRegistro } = leerConfiguracion();
   const reservasIniciales = [
     {
       id: 1,
-      estudiante: "Carlos Mendoa",
+      estudiante: "Carlos Mendoza",
       email: "carlos.mendoza@universidad.edu",
       sala: "Sala Norte",
       fecha: "2026-09-23",
